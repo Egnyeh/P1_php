@@ -1,0 +1,16 @@
+{
+    "nombre": "CRISTINA",
+    "apellidos": "MURCIA",
+    "sexo": "mujer",
+    "correo": "c@c.com",
+    "novedades": true,
+    "condiciones": false
+}
+{
+    "nombre": "emc",
+    "apellidos": "mec",
+    "sexo": "otro",
+    "correo": "mec@mec",
+    "novedades": true,
+    "condiciones": true
+}

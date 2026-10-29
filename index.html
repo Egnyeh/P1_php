@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+
+    <h1>Formulario de registro</h1>
+
+    <form action="ws/crearUsuario.php" method="post">
+
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50">
+        </p>
+
+        <p>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50">
+        </p>
+
+        <p>
+            Sexo:
+            <input type="radio" id="hombre" name="sexo" value="hombre">
+            <label for="hombre">hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">mujer</label>
+            <input type="radio" id="otro" name="sexo" value="otro">
+            <label for="otro">otro</label>
+        </p>
+
+        <p>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+        </p>
+
+        <p>
+            <input type="checkbox" id="novedades" name="novedades" value="si" checked>
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="condiciones" name="condiciones" value="si">
+            <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+
+</body>
+</html>
